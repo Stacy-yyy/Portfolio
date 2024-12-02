@@ -1,0 +1,9 @@
+body{
+    background-color: white;
+}
+.element-button{
+    background-color: transparent;
+    border: 2px solid $color;
+    border-radius: 10px;
+    color: $color;
+}

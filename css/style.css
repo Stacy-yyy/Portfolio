@@ -1,9 +1,12 @@
 body {
-  background-color: blue;
+  background-color: white;
 }
 
-h1 {
-  color: aqua;
+.element-button {
+  background-color: transparent;
+  border: 2px solid fuchsia;
+  border-radius: 10px;
+  color: fuchsia;
 }
 
 /*# sourceMappingURL=style.css.map */
