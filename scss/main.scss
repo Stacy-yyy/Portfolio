@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-wrap: wrap;  
+} 
+
+div{
+    padding: 9rem;
+    margin:50px;
+    border: 2px solid red;
+}
+.reversed{
+    @for $i from 1 through 12{
+        @if $i%3==0{
+            div:nth-child(#{$i}){
+                background-color: aqua;
+            }
+        }
+    }
+}

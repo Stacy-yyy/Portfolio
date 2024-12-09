@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  padding: 9rem;
+  margin: 50px;
+  border: 2px solid red;
+}
+
+.reversed div:nth-child(3) {
+  background-color: aqua;
+}
+.reversed div:nth-child(6) {
+  background-color: aqua;
+}
+.reversed div:nth-child(9) {
+  background-color: aqua;
+}
+.reversed div:nth-child(12) {
+  background-color: aqua;
+}
+
+/*# sourceMappingURL=style.css.map */
