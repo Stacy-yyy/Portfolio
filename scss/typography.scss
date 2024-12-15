@@ -1,7 +1,10 @@
 .typography-section{
     font-size: 32px;
     color: $color-thirdly;
-    
+    &:hover{
+        cursor: pointer;
+        color: $border-box-color;
+    }
 }
 .typography-name{
     font-size: 16px;

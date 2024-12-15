@@ -2,3 +2,9 @@ $color: black;
 $color-secondary:white;
 $color-thirdly: grey;
 $border-box-color:beige;
+
+$breakpoints: (
+  small: 600px,
+  medium: 768px,
+  large: 1024px
+);

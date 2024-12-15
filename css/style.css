@@ -2,6 +2,10 @@
   font-size: 32px;
   color: grey;
 }
+.typography-section:hover {
+  cursor: pointer;
+  color: beige;
+}
 
 .typography-name {
   font-size: 16px;
@@ -64,6 +68,18 @@ footer p {
   margin-left: 250px;
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.hamburger span {
+  background: #fff;
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+}
+
 .bloc-menu ul {
   list-style-type: none;
   margin-top: 10px;
@@ -76,7 +92,7 @@ footer p {
 }
 .bloc-menu li a:hover {
   cursor: pointer;
-  color: grey;
+  color: rgb(230, 230, 167);
 }
 
 .bloc-menu {
@@ -112,7 +128,17 @@ footer p {
   margin-bottom: 20px;
   padding: 10px;
   line-height: 1.5;
-  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 600px) {
+  .element-section {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .element-section {
+    font-size: 12px;
+  }
 }
 
 .element-contact ul {
