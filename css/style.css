@@ -1,10 +1,10 @@
 .typography-section {
-  font-size: 32px;
+  font-size: 48px;
   color: grey;
 }
 .typography-section:hover {
   cursor: pointer;
-  color: beige;
+  color: black;
 }
 
 .typography-name {
@@ -26,10 +26,10 @@ html {
 }
 
 .progress-bar {
-  width: 300px;
-  height: 10px;
+  width: 800px;
+  height: 15px;
   background-color: #ddd;
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
   display: inline-block;
   position: relative;
@@ -47,37 +47,45 @@ label {
 }
 
 .base-input {
-  width: 300px;
-  height: 30px;
-  border-radius: 15px;
-  margin-bottom: 5px;
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  margin-bottom: 10px;
   border: 2px solid black;
+  margin-right: 50px;
 }
 
 .base-textarea {
-  width: 300px;
-  height: 100px;
-  border-radius: 15px;
-  margin-bottom: 5px;
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+  margin-bottom: 10px;
   border: 2px solid black;
+  margin-right: 50px;
+}
+
+.contact1 {
+  display: inline-block;
+}
+
+.contact2 {
+  display: inline-block;
+}
+
+.developer {
+  display: inline-block;
+  border: 1px solid grey;
+}
+
+.design {
+  display: inline-block;
+  border: 1px solid grey;
 }
 
 footer p {
   height: 10px;
   text-align: center;
-  margin-left: 250px;
-}
-
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-.hamburger span {
-  background: #fff;
-  height: 3px;
-  width: 25px;
-  margin: 4px 0;
+  margin-left: 350px;
 }
 
 .bloc-menu ul {
@@ -113,21 +121,24 @@ footer p {
 .element-button {
   background-color: transparent;
   border: 2px solid black;
-  border-radius: 15px;
-  color: black;
+  border-radius: 20px;
+  color: grey;
   margin-bottom: 10px;
-  height: 30px;
+  height: 40px;
+  width: 300px;
+  margin-right: 50px;
 }
 
 .element-section {
   border: 2px solid beige;
   border-radius: 50px;
-  width: 500px;
-  transform: translate(250PX, 0px);
+  width: 1000px;
+  margin-left: 20px;
   text-align: center;
   margin-bottom: 20px;
   padding: 10px;
   line-height: 1.5;
+  height: 100vh;
   box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
 @media (max-width: 600px) {
@@ -141,12 +152,23 @@ footer p {
   }
 }
 
+.element-section p {
+  font-size: 20px;
+}
+
 .element-contact ul {
   list-style-type: none;
+  text-align: start;
+}
+
+.element-contact {
+  display: inline-block;
+  height: 100vh;
 }
 
 .element-image {
   width: 50px;
+  margin: 20px;
 }
 
 main {

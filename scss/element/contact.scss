@@ -1,5 +1,10 @@
 .element-contact{
     ul{
         list-style-type: none;
+        text-align: start;
     }
+}
+.element-contact{
+    display: inline-block;
+    height: 100vh;
 }

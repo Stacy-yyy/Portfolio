@@ -1,8 +1,10 @@
 .element-button{
     background-color: transparent;
     border: 2px solid $color;
-    border-radius: 15px;
-    color: $color;
+    border-radius: 20px;
+    color: $color-thirdly;
     margin-bottom: 10px;
-    height: 30px;
+    height: 40px;
+    width: 300px;
+    margin-right: 50px;
 }

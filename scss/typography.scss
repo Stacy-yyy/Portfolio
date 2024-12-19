@@ -1,9 +1,9 @@
 .typography-section{
-    font-size: 32px;
+    font-size: 48px;
     color: $color-thirdly;
     &:hover{
         cursor: pointer;
-        color: $border-box-color;
+        color: $color;
     }
 }
 .typography-name{

@@ -9,10 +9,10 @@ html{
 
 
 .progress-bar {
-    width: 300px;
-    height: 10px;
+    width: 800px;
+    height: 15px;
     background-color: #ddd;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     display: inline-block;
     position: relative;
@@ -28,34 +28,42 @@ label {
 }
 
 .base-input{
-    width: 300px;
-    height: 30px;
-    border-radius: 15px;
-    margin-bottom: 5px;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 10px;
     border: 2px solid $color;
+    margin-right: 50px;
 }
 .base-textarea{
-    width: 300px;
-    height: 100px;
-    border-radius: 15px;
-    margin-bottom: 5px;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
     border: 2px solid $color;
+    margin-right: 50px;
+}
+
+.contact1{
+    display: inline-block;
+
+}
+.contact2{
+    display: inline-block;
+
+}
+
+.developer{
+    display: inline-block;
+    border: 1px solid grey;
+}
+.design{
+    display: inline-block;
+    border: 1px solid grey;
 }
 
 footer p{
     height: 10px;
     text-align: center;
     margin-left: 350px;
-}
-
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    span {
-      background: #fff;
-      height: 3px;
-      width: 25px;
-      margin: 4px 0;
-    }
 }

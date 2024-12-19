@@ -18,11 +18,4 @@
     }
   }
 
-  @mixin respond($breakpoint) {
-    $value: map-get($breakpoints, $breakpoint);
-    @if $value {
-      @media (max-width: $value) {
-        @content;
-      }
-    }
-  }
+  

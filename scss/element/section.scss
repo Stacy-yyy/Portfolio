@@ -1,19 +1,23 @@
 .element-section{
-    border: 2px solid $border-box-color;
-    border-radius: 50px;
-    width: 500px;
-    transform: translate(250PX , 0px);
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 10px;
-    line-height: 1.5;
-    @include box-shadow(5px, 10px, 10px, 0px, rgba(0, 0, 0, 0.25));
-    @include respond(small) {
-        font-size: 14px;
-      }
-      @include respond(medium) {
-        font-size: 12px;
-      }
+  border: 2px solid $border-box-color;
+  border-radius: 50px;
+  width: 1000px;
+  margin-left: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  line-height: 1.5;
+  height: 100vh;
+  @include box-shadow(5px, 10px, 10px, 0px, rgba(0, 0, 0, 0.25));
+  @include respond(small) {
+      font-size: 14px;
     }
+    @include respond(medium) {
+      font-size: 12px;
+    }
+}
+.element-section p{
+  font-size: 20px;
+}
 
 
