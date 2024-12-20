@@ -70,6 +70,7 @@ label {
 
 .contact2 {
   display: inline-block;
+  transform: translate(0px, -50px);
 }
 
 .developer {
